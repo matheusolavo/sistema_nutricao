@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VidaNutri | Consultas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="logo">
+      <h2>VidaNutri</h2>
+      <span>Sistema Nutricional</span>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html">Dashboard</a>
+      <a href="pacientes.html">Pacientes</a>
+      <a href="dietas.html">Dietas</a>
+      <a href="evolucao.html">Evolução</a>
+      <a href="consultas.html" class="active">Consultas</a>
+      <a href="mensagens.html">Mensagens</a>
+      <a href="configuracoes.html">Configurações</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <button>Sair</button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <header class="topbar">
+      <div>
+        <h1>Consultas</h1>
+        <p>Agende e revise as consultas dos pacientes.</p>
+      </div>
+
+      <div class="profile">
+        <div class="profile-info">
+          <strong>Dra. Ana Souza</strong>
+          <span>Nutricionista</span>
+        </div>
+        <div class="avatar">A</div>
+      </div>
+    </header>
+
+    <section class="card table-card">
+      <div class="card-header">
+        <h2>Próximas consultas</h2>
+        <button>Marcar consulta</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Paciente</th>
+            <th>Data</th>
+            <th>Hora</th>
+            <th>Local</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Matheus Olavo</td>
+            <td>22/05/2026</td>
+            <td>10:00</td>
+            <td>Consultório 1</td>
+            <td><span class="status active">Confirmada</span></td>
+          </tr>
+          <tr>
+            <td>João Victor</td>
+            <td>24/05/2026</td>
+            <td>14:30</td>
+            <td>Consultório 2</td>
+            <td><span class="status active">Confirmada</span></td>
+          </tr>
+          <tr>
+            <td>Lucas Henrique</td>
+            <td>25/05/2026</td>
+            <td>09:00</td>
+            <td>Teleconsulta</td>
+            <td><span class="status pending">Pendente</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+</body>
+</html>

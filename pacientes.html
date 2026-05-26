@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VidaNutri | Pacientes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="logo">
+      <h2>VidaNutri</h2>
+      <span>Sistema Nutricional</span>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html">Dashboard</a>
+      <a href="pacientes.html" class="active">Pacientes</a>
+      <a href="dietas.html">Dietas</a>
+      <a href="evolucao.html">Evolução</a>
+      <a href="consultas.html">Consultas</a>
+      <a href="mensagens.html">Mensagens</a>
+      <a href="configuracoes.html">Configurações</a>
+
+    </nav>
+
+    <div class="sidebar-footer">
+      <button>Sair</button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <header class="topbar">
+      <div>
+        <h1>Pacientes</h1>
+        <p>Gerencie informações e acompanhe o progresso dos seus pacientes.</p>
+      </div>
+
+      <div class="profile">
+        <div class="profile-info">
+          <strong>Dra. Ana Souza</strong>
+          <span>Nutricionista</span>
+        </div>
+        <div class="avatar">A</div>
+      </div>
+    </header>
+
+    <section class="card table-card">
+      <div class="card-header">
+        <h2>Lista de pacientes</h2>
+        <button>Novo paciente</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Paciente</th>
+            <th>Objetivo</th>
+            <th>Peso atual</th>
+            <th>Evolução</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Matheus Olavo</td>
+            <td>Emagrecimento</td>
+            <td>80 kg</td>
+            <td>-5 kg</td>
+            <td><span class="status active">Ativo</span></td>
+          </tr>
+          <tr>
+            <td>João Victor</td>
+            <td>Ganho de massa</td>
+            <td>92 kg</td>
+            <td>+3 kg</td>
+            <td><span class="status active">Ativo</span></td>
+          </tr>
+          <tr>
+            <td>Lucas Henrique</td>
+            <td>Manutenção</td>
+            <td>74 kg</td>
+            <td>0 kg</td>
+            <td><span class="status pending">Revisão</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+</body>
+</html>

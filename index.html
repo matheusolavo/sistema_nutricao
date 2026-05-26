@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VidaNutri | Sistema Nutricional</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="logo">
+      <h2>VidaNutri</h2>
+      <span>Sistema Nutricional</span>
+    </div>
+
+    <nav class="menu">
+      <a href="index.html" class="active">Dashboard</a>
+      <a href="pacientes.html">Pacientes</a>
+      <a href="dietas.html">Dietas</a>
+      <a href="evolucao.html">Evolução</a>
+      <a href="consultas.html">Consultas</a>
+      <a href="mensagens.html">Mensagens</a>
+      <a href="configuracoes.html">Configurações</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <button>Sair</button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+
+    <header class="topbar">
+      <div>
+        <h1>Dashboard</h1>
+        <p>Bem-vindo ao painel de acompanhamento nutricional</p>
+      </div>
+
+      <div class="profile">
+        <div class="profile-info">
+          <strong>Dra. Ana Souza</strong>
+          <span>Nutricionista</span>
+        </div>
+        <div class="avatar">A</div>
+      </div>
+    </header>
+
+    <section class="stats-grid">
+      <div class="stat-card">
+        <span>Pacientes ativos</span>
+        <h2>24</h2>
+        <p>+3 este mês</p>
+      </div>
+
+      <div class="stat-card">
+        <span>Dietas criadas</span>
+        <h2>58</h2>
+        <p>Planos personalizados</p>
+      </div>
+
+      <div class="stat-card">
+        <span>Consultas</span>
+        <h2>12</h2>
+        <p>Agendadas na semana</p>
+      </div>
+
+      <div class="stat-card">
+        <span>Média de evolução</span>
+        <h2>4,8 kg</h2>
+        <p>Perda média dos pacientes</p>
+      </div>
+    </section>
+
+    <section class="content-grid">
+
+      <div class="card patient-card">
+        <div class="card-header">
+          <h2>Paciente em destaque</h2>
+          <button>Ver perfil</button>
+        </div>
+
+        <div class="patient-profile">
+          <div class="patient-avatar">M</div>
+
+          <div>
+            <h3>Matheus Olavo</h3>
+            <p>Objetivo: Emagrecimento</p>
+          </div>
+        </div>
+
+        <div class="patient-data">
+          <div>
+            <span>Peso inicial</span>
+            <strong>85 kg</strong>
+          </div>
+
+          <div>
+            <span>Peso atual</span>
+            <strong>80 kg</strong>
+          </div>
+
+          <div>
+            <span>Quilos perdidos</span>
+            <strong>5 kg</strong>
+          </div>
+
+          <div>
+            <span>Meta</span>
+            <strong>75 kg</strong>
+          </div>
+        </div>
+
+        <div class="progress-area">
+          <div class="progress-info">
+            <span>Progresso da meta</span>
+            <strong>50%</strong>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card diet-card">
+        <div class="card-header">
+          <h2>Dieta atual</h2>
+          <button>Editar</button>
+        </div>
+
+        <div class="meal">
+          <span>Café da manhã</span>
+          <p>Ovos mexidos, banana e café sem açúcar</p>
+        </div>
+
+        <div class="meal">
+          <span>Almoço</span>
+          <p>Arroz integral, frango grelhado e salada</p>
+        </div>
+
+        <div class="meal">
+          <span>Lanche</span>
+          <p>Iogurte natural com aveia</p>
+        </div>
+
+        <div class="meal">
+          <span>Jantar</span>
+          <p>Omelete com legumes e salada verde</p>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="card table-card">
+      <div class="card-header">
+        <h2>Lista de pacientes</h2>
+        <button>Novo paciente</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Paciente</th>
+            <th>Objetivo</th>
+            <th>Peso atual</th>
+            <th>Evolução</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Matheus Olavo</td>
+            <td>Emagrecimento</td>
+            <td>80 kg</td>
+            <td>-5 kg</td>
+            <td><span class="status active">Ativo</span></td>
+          </tr>
+
+          <tr>
+            <td>João Victor</td>
+            <td>Ganho de massa</td>
+            <td>92 kg</td>
+            <td>+3 kg</td>
+            <td><span class="status active">Ativo</span></td>
+          </tr>
+
+          <tr>
+            <td>Lucas Henrique</td>
+            <td>Manutenção</td>
+            <td>74 kg</td>
+            <td>0 kg</td>
+            <td><span class="status pending">Revisão</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+</body>
+</html>
